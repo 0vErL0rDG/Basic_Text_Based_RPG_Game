@@ -1,0 +1,142 @@
+# Basic Text RPG Battle System
+
+A comprehensive text-based RPG battle system written in C with CMake build system support. This project represents my journey into larger-scale C programming and game development.
+
+<img width="881" height="309" alt="Main_Menu" src="https://github.com/user-attachments/assets/40072604-96c3-49aa-be7f-c74393300fcd" />
+
+## 🎮 Features
+
+### Core Gameplay
+- **Turn-based combat** with strategic depth
+- **Random enemy encounters** with 10+ unique mob types **( Can Add Mob Manually Too )**
+- **Ability system** with cooldowns and mana management
+- **Progression system** with leveling and EXP
+- **Economy system** with gold rewards
+
+### Equipment & Inventory
+- **Weapon and armor systems** with stat bonuses
+- **Multi-slot equipment** (weapon, armor, leggings, boots)
+- **Inventory management** with storage capacity
+- **Item creation** and customization tools
+
+### Technical Implementation
+- **Save/Load system** with auto-save functionality
+- **Modular architecture** with separated concerns
+- **Debug mode** with developer tools
+- **Cross-platform compatibility**
+
+<img width="516" height="413" alt="Inventory" src="https://github.com/user-attachments/assets/11466174-478e-4abe-a699-8e312b34aa01" />
+
+
+## 🛠️ Quick Start
+
+### Prerequisites
+- CMake 4.0+
+- C compiler with C26 support
+
+### Build & Run
+```bash
+git clone <repository-url>
+cd Basic_Text_RPG_Battle_System
+mkdir build && cd build
+cmake ..
+make
+./Basic_Text_RPG_Battle_System
+```
+# 🎯 Gameplay Overview
+
+## 🏠 Main Menu
+```bash
+|----------------------------|
+|------ USER INTERFACE ------|
+|----------------------------|
+|------- New Game (1) -------|
+|  Continue / Load Game (2)  |
+|----------------------------|
+```
+# Combat System
+
+- **Turn-based battles** with tactical choices  
+- **Attack/Defend mechanics** with damage calculation  
+- **Special abilities** with mana costs and cooldowns  
+- **Equipment bonuses** that affect combat performance  
+
+## Character Management
+
+- **Stat tracking:** Health, Mana, Stamina  
+- **Equipment slots** with visual feedback  
+- **Ability progression and management**  
+- **Inventory system** with item storage  
+
+<img width="610" height="330" alt="Dungeon" src="https://github.com/user-attachments/assets/c7f99928-b879-4273-8617-16a0871c43ab" />
+
+
+# 🚀 Future Updates
+
+## Planned Enhancements
+
+### Shop System
+- Item merchants with gold transactions  
+- Equipment upgrades and enhancements  
+- Consumable items (potions, scrolls)  
+- Dynamic pricing based on player level  
+
+### Enhanced GUI
+- Color-coded interfaces for better readability  
+- Interactive menus with mouse support  
+- Real-time stat displays during combat  
+- Customizable UI themes  
+
+### Gameplay Expansions
+- Quest system with objectives and rewards  
+- Crafting system for item creation  
+- Multi-level dungeons with boss encounters  
+- Character classes with unique abilities  
+
+### Technical Improvements
+- Optimized save system with compression  
+- Extended modding support for custom content  
+- Performance enhancements for larger battles  
+- Extended platform support
+```bash
+
+C_FILES/           HEADER_FILES/
+├── main.c         ├── Header_Store.h
+├── Game_Mechanics.c ├── User_Information.h
+├── user_info.c    ├── Items_Properties.h
+├── Item_Properties.c ├── Mob.h
+├── MOB_LOGIC.c    ├── Game_Mechanics.h
+├── Devs_kits.c    ├── Display_Logic.h
+├── Display_Logic.c ├── Devs_kit.h
+├── ability.c      ├── Battle_Mechanics.h
+├── Save_Load.c    ├── Save_Load.h
+└── Battle_Mechanics.c └── Predefined_Values.h
+```
+
+# 🎓 About the Developer
+
+This project represents my second GitHub repository and first large-scale C programming endeavor. As someone new to C programming, I'm continuously learning and improving my skills day by day.
+
+## Learning Journey
+- First major project in C language  
+- Focus on clean architecture and modular design  
+- Practical application of data structures and memory management  
+- Continuous improvement through feedback and refactoring  
+
+## Goals
+- Master C programming for system-level development  
+- Build foundation for a game development career  
+- Learn software architecture and design patterns  
+- Contribute to open-source gaming projects  
+
+## 💡 Contributing
+While this is primarily a learning project, suggestions and feedback are always welcome! I'm particularly interested in:  
+- Code optimization tips  
+- Memory management best practices  
+- Game design improvements  
+- User experience enhancements  
+
+## 📄 License
+**MIT License** - feel free to learn from and build upon this code.
+
+#### Disclaimer : Even Tho I Tried To Make It On My own I Indeed Took Help From DeepSeek (AI) , But For Logics , ERROR & Format Files / This .md File...
