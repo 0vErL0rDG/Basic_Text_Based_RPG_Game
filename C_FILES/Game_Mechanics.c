@@ -194,6 +194,7 @@ void Battle_Start() {
                     }
                     attack_defend:
                     if (toggle_Player_turn == 1) {
+                        key_check_attack_defend:
                         Update_Ability_Cooldowns();
                         // Player's turn
                         char attack_defend;
@@ -206,6 +207,8 @@ void Battle_Start() {
                         scanf(" %1c", &attack_defend);
 
                         switch (attack_defend) {
+                            default:
+                                goto attack_defend;
                             case 'a':
                             case 'A': {
                                 char attack_Method;
@@ -226,7 +229,7 @@ void Battle_Start() {
                                         case 'b':
                                         case 'B':
                                             printf("-----------------------------------------\n");
-                                            printf("| Player deals %d damage to %s!\n", p->Attack_DMG + p->p_on_hand_inv.weapon.Weapon_DMG, random_mob->Name);
+                                            printf("| %2s deals %d damage to %s!\n",p->Name, p->Attack_DMG + p->p_on_hand_inv.weapon.Weapon_DMG, random_mob->Name);
                                             printf("-----------------------------------------\n");
                                             random_mob->Health -= p->Attack_DMG;
                                             ability_used = 1;
@@ -247,14 +250,15 @@ void Battle_Start() {
                                             }
                                             sleep(1);
                                             printf("-----------------------------------------\n");
-                                            printf("| Player deals %d damage to %s!\n", selected->ability_dmg + (p->p_on_hand_inv.weapon.Weapon_DMG / 2), random_mob->Name);
+                                            printf("| %4s Used --[ %s ]-- \n",p->Name,selected->ability_name);
+                                            sleep(1);
+                                            printf("| %4s deals %d damage to %s!\n",p->Name, selected->ability_dmg + (p->p_on_hand_inv.weapon.Weapon_DMG / 2), random_mob->Name);
                                             printf("-----------------------------------------\n");
                                             random_mob->Health -= selected->ability_dmg;
                                             ability_used = 1;
                                             sleep(2);
                                             break;
                                         }
-
                                         default:
                                             printf("-----------------------------------------\n");
                                             printf("| Invalid attack method! Please\n");

@@ -6,7 +6,7 @@ void Auto_Regeneration_Background(void) {
 
     // Health regeneration
     if (p->Health < p->MAX_Health) {
-        p->Health += 3;
+        p->Health += 2;
         if (p->Health > p->MAX_Health) {
             p->Health = p->MAX_Health;
         }
@@ -14,7 +14,7 @@ void Auto_Regeneration_Background(void) {
 
     // Mana regeneration
     if (p->Mana < p->MAX_Mana) {
-        p->Mana += 3;
+        p->Mana += 2;
         if (p->Mana > p->MAX_Mana) {
             p->Mana = p->MAX_Mana;
         }
