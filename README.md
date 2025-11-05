@@ -2,8 +2,8 @@
 
 A comprehensive text-based RPG battle system written in C with CMake build system support. This project represents my journey into larger-scale C programming and game development.
 
-<img width="881" height="309" alt="Main_Menu" src="https://github.com/user-attachments/assets/879954e2-d198-4b42-a0c7-ee1408ef170b" />
-<img width="490" height="400" alt="Player_Details" src="https://github.com/user-attachments/assets/8ba1fdd1-1a5e-4993-8b8b-ce4ca0a496b9" />
+<img width="880" height="310" alt="Main_Menu" src="https://github.com/user-attachments/assets/879954e2-d198-4b42-a0c7-ee1408ef170b" />
+<img width="500" height="400" alt="Player_Details" src="https://github.com/user-attachments/assets/8ba1fdd1-1a5e-4993-8b8b-ce4ca0a496b9" />
 <img width="500" height="400" alt="Inventory" src="https://github.com/user-attachments/assets/37d18eef-7832-4660-8904-2ac8bd28a21b" />
 
 ## 🎮 Features
