@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 26)
 # Include header directories
 include_directories(HEADER_FILES)
 
-add_executable(Basic_Text_RPG_Battle_System
+add_executable(Basic_Text_RPG_Game
         C_FILES/main.c
         C_FILES/Game_Mechanics.c
         C_FILES/user_info.c
