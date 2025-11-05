@@ -2,7 +2,8 @@
 
 A comprehensive text-based RPG battle system written in C with CMake build system support. This project represents my journey into larger-scale C programming and game development.
 
-<img width="881" height="309" alt="Main_Menu" src="https://github.com/user-attachments/assets/40072604-96c3-49aa-be7f-c74393300fcd" />
+<img width="881" height="309" alt="Main_Menu" src="https://github.com/user-attachments/assets/879954e2-d198-4b42-a0c7-ee1408ef170b" />
+
 
 ## 🎮 Features
 
@@ -23,9 +24,8 @@ A comprehensive text-based RPG battle system written in C with CMake build syste
 - **Save/Load system** with auto-save functionality
 - **Modular architecture** with separated concerns
 - **Debug mode** with developer tools
-- **Cross-platform compatibility**
 
-<img width="516" height="413" alt="Inventory" src="https://github.com/user-attachments/assets/11466174-478e-4abe-a699-8e312b34aa01" />
+<img width="516" height="413" alt="Inventory" src="https://github.com/user-attachments/assets/37d18eef-7832-4660-8904-2ac8bd28a21b" />
 
 
 ## 🛠️ Quick Start
@@ -68,7 +68,8 @@ make
 - **Ability progression and management**  
 - **Inventory system** with item storage  
 
-<img width="610" height="330" alt="Dungeon" src="https://github.com/user-attachments/assets/c7f99928-b879-4273-8617-16a0871c43ab" />
+
+<img width="610" height="330" alt="Dungeon" src="https://github.com/user-attachments/assets/412ac4a2-fa33-4763-83a7-84b938270dd6" />
 
 
 # 🚀 Future Updates
