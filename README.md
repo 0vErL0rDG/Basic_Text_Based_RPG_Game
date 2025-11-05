@@ -22,27 +22,10 @@ A comprehensive text-based RPG battle system written in C with CMake build syste
 
 ### Technical Implementation
 - **Save/Load system** with auto-save functionality
-- **Modular architecture** with separated concerns
-- **Debug mode** with developer tools
+- **Debug mode** with developer tools ( Need To Update For Better Usages )
 
 <img width="516" height="413" alt="Inventory" src="https://github.com/user-attachments/assets/37d18eef-7832-4660-8904-2ac8bd28a21b" />
 
-
-## 🛠️ Quick Start
-
-### Prerequisites
-- CMake 4.0+
-- C compiler with C26 support
-
-### Build & Run
-```bash
-git clone <repository-url>
-cd Basic_Text_RPG_Battle_System
-mkdir build && cd build
-cmake ..
-make
-./Basic_Text_RPG_Battle_System
-```
 # 🎯 Gameplay Overview
 
 ## 🏠 Main Menu
@@ -120,7 +103,7 @@ This project represents my second GitHub repository and first large-scale C prog
 
 ## Learning Journey
 - First major project in C language  
-- Focus on clean architecture and modular design  
+- Trying to clean architecture and modular design  
 - Practical application of data structures and memory management  
 - Continuous improvement through feedback and refactoring  
 
