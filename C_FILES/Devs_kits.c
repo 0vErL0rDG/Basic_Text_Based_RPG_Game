@@ -86,7 +86,7 @@ void Cheat_Mode_On() {
         printf(" | ????? \n");
         printf("Return (0)\n");
         char cheat_menu;
-        scanf(" %c",&cheat_menu);
+        scanf(" %1c",&cheat_menu);
         switch (cheat_menu) {
             case '1' :
                 printf("100 Gold Was Added !\n");

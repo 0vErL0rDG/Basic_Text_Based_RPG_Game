@@ -18,7 +18,7 @@ int main() {
         printf(" |----------------------------|\n");
 
         char Main_Options;
-        scanf(" %c",&Main_Options);
+        scanf(" %1c",&Main_Options);
 
         switch (Main_Options) {
             case '1':
@@ -40,7 +40,7 @@ int main() {
                     printf(" | Player Devs Mode (6) \n");
 
                     char USER_INPUT;
-                    scanf(" %c",&USER_INPUT);
+                    scanf(" %1c",&USER_INPUT);
 
                     switch (USER_INPUT) {
                         case '1' :
@@ -68,7 +68,7 @@ int main() {
                             printf(" | Return (0)\n");
 
                             char Devs_mode;
-                            scanf(" %c",&Devs_mode);
+                            scanf(" %1c",&Devs_mode);
                             switch (Devs_mode) {
                                 case '1' :
                                     enable_debug();
@@ -111,7 +111,7 @@ int main() {
                     printf(" | Player Devs Mode (6) \n");
 
                     char USER_INPUT;
-                    scanf(" %c",&USER_INPUT);
+                    scanf(" %1c",&USER_INPUT);
 
                     switch (USER_INPUT) {
                         case '1' :
@@ -139,7 +139,7 @@ int main() {
                             printf(" | Return (0)\n");
 
                             char Devs_mode;
-                            scanf(" %c",&Devs_mode);
+                            scanf(" %1c",&Devs_mode);
                             switch (Devs_mode) {
                                 case '1' :
                                     enable_debug();

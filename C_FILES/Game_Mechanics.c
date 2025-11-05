@@ -157,7 +157,7 @@ void Battle_Start() {
         printf("-----------------------------------------\n");
         printf("| Are You Gonna Fight? (Y/N)\n");
         printf("-----------------------------------------\n");
-        scanf(" %c", &user_input);
+        scanf(" %1c", &user_input);
 
         short toggle_Player_turn = 1;
         switch (user_input) {
@@ -203,7 +203,7 @@ void Battle_Start() {
                         printf("| Do you wish to Attack or Defend?\n");
                         printf("| (A) Attack  |  (D) Defend\n");
                         printf("-----------------------------------------\n");
-                        scanf(" %c", &attack_defend);
+                        scanf(" %1c", &attack_defend);
 
                         switch (attack_defend) {
                             case 'a':
@@ -220,7 +220,7 @@ void Battle_Start() {
                                     printf("-----------------------------------------\n");
                                     printf("| (B) Basic Attack | (A) Ability\n");
                                     printf("-----------------------------------------\n");
-                                    scanf(" %c", &attack_Method);
+                                    scanf(" %1c", &attack_Method);
 
                                     switch (attack_Method) {
                                         case 'b':
